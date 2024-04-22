@@ -1,5 +1,13 @@
 # py-ai-certificate
 
+This application allows you to ask a bot questions about one or several PDFs that you upload. It is based on:
+
+- Using LangChain document processors (PDF) that handle the chunking process. Additionally, it was designed to incorporate the document's metadata within the chunks.
+- Creating embeddings from the chunks using the library that integrates 'OpenAIEmbeddings' within LangChain.
+- Storing the embeddings in a vector database like ChromaDB.
+- Calling the LLM through the OpenAI API.
+- Applying the novel RAG technique thanks to the use of LangChain.
+
 ## Quick Start
 
 ### Clon the repository (SSH)
